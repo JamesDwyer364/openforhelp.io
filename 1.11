@@ -1,0 +1,17 @@
+ServerA:~$ wget -qO- https://pipelines.puppet.com/download/client | sh
+This script requires superuser privileges to install packages
+Please enter your password at the sudo prompt
+
+[sudo] password for bmcgehee: 
+    Installing Distelli CLI 3.51 for architecture 'Linux-x86_64'...
+    Downloading https://s3.amazonaws.com/download.distelli.com/distelli.Linux-x86_64/distelli.Linux-x86_64-3.51.gz
+To install the agent, run:
+    sudo /usr/local/bin/distelli agent install
+ServerA:~$ sudo /usr/local/bin/distelli agent install
+Distelli Email: jdoe@distelli.com
+      Password: 
+    1: User: jdoe
+    2: Team: janedoe/TeamJane
+Team [2]: 1
+Server Info: https://www.distelli.com/jdoe/servers/12345678-4765-ac42-bd7a-080027c8277c
+Starting upstart daemon with name:	dtk-supervise-cc123456787ad94a8d34ac610381242f9ae28bb8
